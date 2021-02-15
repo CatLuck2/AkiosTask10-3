@@ -10,10 +10,10 @@ import UIKit
 class ViewController: UIViewController {
 
     private let tableView = UITableView()
+    private let prefectures = Prefectures()
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
     }
 
     override func viewDidLayoutSubviews() {
@@ -22,19 +22,22 @@ class ViewController: UIViewController {
 
     private func setUpTableView() {
         tableView.delegate = self
+        tableView.dataSource = self
         tableView.frame = CGRect(x: 0, y: 0, width: self.view.frame.width, height: self.view.frame.height)
         self.view.addSubview(tableView)
     }
 
 }
 
-extension ViewController: UITableViewDelegate {
+extension ViewController: UITableViewDelegate, UITableViewDataSource {
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        1
+        prefectures.names.count
     }
 
-    private func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        let cell = UITableViewCell(style: .default, reuseIdentifier: "cell")
+    func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
+        let cell = UITableViewCell(style: .value1, reuseIdentifier: "cell")
+        cell.textLabel?.text = prefectures.names[indexPath.row]
+        cell.detailTextLabel?.text = "\(indexPath.row + 1)番目の都道府県です"
         return cell
     }
 }
