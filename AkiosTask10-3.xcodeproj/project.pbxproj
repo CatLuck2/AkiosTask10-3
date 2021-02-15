@@ -1,0 +1,598 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6137A1DA25DA4C6D00E55A46 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6137A1D925DA4C6D00E55A46 /* AppDelegate.swift */; };
+		6137A1DC25DA4C6D00E55A46 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6137A1DB25DA4C6D00E55A46 /* SceneDelegate.swift */; };
+		6137A1DE25DA4C6D00E55A46 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6137A1DD25DA4C6D00E55A46 /* ViewController.swift */; };
+		6137A1E125DA4C6D00E55A46 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6137A1DF25DA4C6D00E55A46 /* Main.storyboard */; };
+		6137A1E325DA4C6F00E55A46 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6137A1E225DA4C6F00E55A46 /* Assets.xcassets */; };
+		6137A1E625DA4C6F00E55A46 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6137A1E425DA4C6F00E55A46 /* LaunchScreen.storyboard */; };
+		6137A1F125DA4C6F00E55A46 /* AkiosTask10_3Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6137A1F025DA4C6F00E55A46 /* AkiosTask10_3Tests.swift */; };
+		6137A1FC25DA4C6F00E55A46 /* AkiosTask10_3UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6137A1FB25DA4C6F00E55A46 /* AkiosTask10_3UITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6137A1ED25DA4C6F00E55A46 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6137A1CE25DA4C6D00E55A46 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6137A1D525DA4C6D00E55A46;
+			remoteInfo = "AkiosTask10-3";
+		};
+		6137A1F825DA4C6F00E55A46 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6137A1CE25DA4C6D00E55A46 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6137A1D525DA4C6D00E55A46;
+			remoteInfo = "AkiosTask10-3";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		6137A1D625DA4C6D00E55A46 /* AkiosTask10-3.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "AkiosTask10-3.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6137A1D925DA4C6D00E55A46 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		6137A1DB25DA4C6D00E55A46 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		6137A1DD25DA4C6D00E55A46 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		6137A1E025DA4C6D00E55A46 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6137A1E225DA4C6F00E55A46 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6137A1E525DA4C6F00E55A46 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		6137A1E725DA4C6F00E55A46 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6137A1EC25DA4C6F00E55A46 /* AkiosTask10-3Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "AkiosTask10-3Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6137A1F025DA4C6F00E55A46 /* AkiosTask10_3Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AkiosTask10_3Tests.swift; sourceTree = "<group>"; };
+		6137A1F225DA4C6F00E55A46 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6137A1F725DA4C6F00E55A46 /* AkiosTask10-3UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "AkiosTask10-3UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6137A1FB25DA4C6F00E55A46 /* AkiosTask10_3UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AkiosTask10_3UITests.swift; sourceTree = "<group>"; };
+		6137A1FD25DA4C6F00E55A46 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6137A1D325DA4C6D00E55A46 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6137A1E925DA4C6F00E55A46 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6137A1F425DA4C6F00E55A46 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6137A1CD25DA4C6D00E55A46 = {
+			isa = PBXGroup;
+			children = (
+				6137A1D825DA4C6D00E55A46 /* AkiosTask10-3 */,
+				6137A1EF25DA4C6F00E55A46 /* AkiosTask10-3Tests */,
+				6137A1FA25DA4C6F00E55A46 /* AkiosTask10-3UITests */,
+				6137A1D725DA4C6D00E55A46 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6137A1D725DA4C6D00E55A46 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6137A1D625DA4C6D00E55A46 /* AkiosTask10-3.app */,
+				6137A1EC25DA4C6F00E55A46 /* AkiosTask10-3Tests.xctest */,
+				6137A1F725DA4C6F00E55A46 /* AkiosTask10-3UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6137A1D825DA4C6D00E55A46 /* AkiosTask10-3 */ = {
+			isa = PBXGroup;
+			children = (
+				6137A1D925DA4C6D00E55A46 /* AppDelegate.swift */,
+				6137A1DB25DA4C6D00E55A46 /* SceneDelegate.swift */,
+				6137A1DD25DA4C6D00E55A46 /* ViewController.swift */,
+				6137A1DF25DA4C6D00E55A46 /* Main.storyboard */,
+				6137A1E225DA4C6F00E55A46 /* Assets.xcassets */,
+				6137A1E425DA4C6F00E55A46 /* LaunchScreen.storyboard */,
+				6137A1E725DA4C6F00E55A46 /* Info.plist */,
+			);
+			path = "AkiosTask10-3";
+			sourceTree = "<group>";
+		};
+		6137A1EF25DA4C6F00E55A46 /* AkiosTask10-3Tests */ = {
+			isa = PBXGroup;
+			children = (
+				6137A1F025DA4C6F00E55A46 /* AkiosTask10_3Tests.swift */,
+				6137A1F225DA4C6F00E55A46 /* Info.plist */,
+			);
+			path = "AkiosTask10-3Tests";
+			sourceTree = "<group>";
+		};
+		6137A1FA25DA4C6F00E55A46 /* AkiosTask10-3UITests */ = {
+			isa = PBXGroup;
+			children = (
+				6137A1FB25DA4C6F00E55A46 /* AkiosTask10_3UITests.swift */,
+				6137A1FD25DA4C6F00E55A46 /* Info.plist */,
+			);
+			path = "AkiosTask10-3UITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6137A1D525DA4C6D00E55A46 /* AkiosTask10-3 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6137A20025DA4C6F00E55A46 /* Build configuration list for PBXNativeTarget "AkiosTask10-3" */;
+			buildPhases = (
+				6137A1D225DA4C6D00E55A46 /* Sources */,
+				6137A1D325DA4C6D00E55A46 /* Frameworks */,
+				6137A1D425DA4C6D00E55A46 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "AkiosTask10-3";
+			productName = "AkiosTask10-3";
+			productReference = 6137A1D625DA4C6D00E55A46 /* AkiosTask10-3.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6137A1EB25DA4C6F00E55A46 /* AkiosTask10-3Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6137A20325DA4C6F00E55A46 /* Build configuration list for PBXNativeTarget "AkiosTask10-3Tests" */;
+			buildPhases = (
+				6137A1E825DA4C6F00E55A46 /* Sources */,
+				6137A1E925DA4C6F00E55A46 /* Frameworks */,
+				6137A1EA25DA4C6F00E55A46 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6137A1EE25DA4C6F00E55A46 /* PBXTargetDependency */,
+			);
+			name = "AkiosTask10-3Tests";
+			productName = "AkiosTask10-3Tests";
+			productReference = 6137A1EC25DA4C6F00E55A46 /* AkiosTask10-3Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		6137A1F625DA4C6F00E55A46 /* AkiosTask10-3UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6137A20625DA4C6F00E55A46 /* Build configuration list for PBXNativeTarget "AkiosTask10-3UITests" */;
+			buildPhases = (
+				6137A1F325DA4C6F00E55A46 /* Sources */,
+				6137A1F425DA4C6F00E55A46 /* Frameworks */,
+				6137A1F525DA4C6F00E55A46 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6137A1F925DA4C6F00E55A46 /* PBXTargetDependency */,
+			);
+			name = "AkiosTask10-3UITests";
+			productName = "AkiosTask10-3UITests";
+			productReference = 6137A1F725DA4C6F00E55A46 /* AkiosTask10-3UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6137A1CE25DA4C6D00E55A46 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1220;
+				LastUpgradeCheck = 1220;
+				TargetAttributes = {
+					6137A1D525DA4C6D00E55A46 = {
+						CreatedOnToolsVersion = 12.2;
+					};
+					6137A1EB25DA4C6F00E55A46 = {
+						CreatedOnToolsVersion = 12.2;
+						TestTargetID = 6137A1D525DA4C6D00E55A46;
+					};
+					6137A1F625DA4C6F00E55A46 = {
+						CreatedOnToolsVersion = 12.2;
+						TestTargetID = 6137A1D525DA4C6D00E55A46;
+					};
+				};
+			};
+			buildConfigurationList = 6137A1D125DA4C6D00E55A46 /* Build configuration list for PBXProject "AkiosTask10-3" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6137A1CD25DA4C6D00E55A46;
+			productRefGroup = 6137A1D725DA4C6D00E55A46 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6137A1D525DA4C6D00E55A46 /* AkiosTask10-3 */,
+				6137A1EB25DA4C6F00E55A46 /* AkiosTask10-3Tests */,
+				6137A1F625DA4C6F00E55A46 /* AkiosTask10-3UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6137A1D425DA4C6D00E55A46 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6137A1E625DA4C6F00E55A46 /* LaunchScreen.storyboard in Resources */,
+				6137A1E325DA4C6F00E55A46 /* Assets.xcassets in Resources */,
+				6137A1E125DA4C6D00E55A46 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6137A1EA25DA4C6F00E55A46 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6137A1F525DA4C6F00E55A46 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6137A1D225DA4C6D00E55A46 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6137A1DE25DA4C6D00E55A46 /* ViewController.swift in Sources */,
+				6137A1DA25DA4C6D00E55A46 /* AppDelegate.swift in Sources */,
+				6137A1DC25DA4C6D00E55A46 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6137A1E825DA4C6F00E55A46 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6137A1F125DA4C6F00E55A46 /* AkiosTask10_3Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6137A1F325DA4C6F00E55A46 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6137A1FC25DA4C6F00E55A46 /* AkiosTask10_3UITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6137A1EE25DA4C6F00E55A46 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6137A1D525DA4C6D00E55A46 /* AkiosTask10-3 */;
+			targetProxy = 6137A1ED25DA4C6F00E55A46 /* PBXContainerItemProxy */;
+		};
+		6137A1F925DA4C6F00E55A46 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6137A1D525DA4C6D00E55A46 /* AkiosTask10-3 */;
+			targetProxy = 6137A1F825DA4C6F00E55A46 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		6137A1DF25DA4C6D00E55A46 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6137A1E025DA4C6D00E55A46 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		6137A1E425DA4C6F00E55A46 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6137A1E525DA4C6F00E55A46 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6137A1FE25DA4C6F00E55A46 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		6137A1FF25DA4C6F00E55A46 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6137A20125DA4C6F00E55A46 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = B7VAC4V7M7;
+				INFOPLIST_FILE = "AkiosTask10-3/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Nekokichi-Yos.AkiosTask10-3";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6137A20225DA4C6F00E55A46 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = B7VAC4V7M7;
+				INFOPLIST_FILE = "AkiosTask10-3/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Nekokichi-Yos.AkiosTask10-3";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		6137A20425DA4C6F00E55A46 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = B7VAC4V7M7;
+				INFOPLIST_FILE = "AkiosTask10-3Tests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Nekokichi-Yos.AkiosTask10-3Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AkiosTask10-3.app/AkiosTask10-3";
+			};
+			name = Debug;
+		};
+		6137A20525DA4C6F00E55A46 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = B7VAC4V7M7;
+				INFOPLIST_FILE = "AkiosTask10-3Tests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Nekokichi-Yos.AkiosTask10-3Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AkiosTask10-3.app/AkiosTask10-3";
+			};
+			name = Release;
+		};
+		6137A20725DA4C6F00E55A46 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = B7VAC4V7M7;
+				INFOPLIST_FILE = "AkiosTask10-3UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Nekokichi-Yos.AkiosTask10-3UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "AkiosTask10-3";
+			};
+			name = Debug;
+		};
+		6137A20825DA4C6F00E55A46 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = B7VAC4V7M7;
+				INFOPLIST_FILE = "AkiosTask10-3UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Nekokichi-Yos.AkiosTask10-3UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "AkiosTask10-3";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6137A1D125DA4C6D00E55A46 /* Build configuration list for PBXProject "AkiosTask10-3" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6137A1FE25DA4C6F00E55A46 /* Debug */,
+				6137A1FF25DA4C6F00E55A46 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6137A20025DA4C6F00E55A46 /* Build configuration list for PBXNativeTarget "AkiosTask10-3" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6137A20125DA4C6F00E55A46 /* Debug */,
+				6137A20225DA4C6F00E55A46 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6137A20325DA4C6F00E55A46 /* Build configuration list for PBXNativeTarget "AkiosTask10-3Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6137A20425DA4C6F00E55A46 /* Debug */,
+				6137A20525DA4C6F00E55A46 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6137A20625DA4C6F00E55A46 /* Build configuration list for PBXNativeTarget "AkiosTask10-3UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6137A20725DA4C6F00E55A46 /* Debug */,
+				6137A20825DA4C6F00E55A46 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6137A1CE25DA4C6D00E55A46 /* Project object */;
+}
