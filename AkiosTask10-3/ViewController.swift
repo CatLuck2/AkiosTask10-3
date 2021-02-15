@@ -14,6 +14,15 @@ class ViewController: UIViewController {
         // Do any additional setup after loading the view.
     }
 
+    override func viewDidLayoutSubviews() {
+        setUpTableView()
+    }
+
+    private func setUpTableView() {
+        let tableView = UITableView()
+        tableView.frame = CGRect(x: 0, y: 0, width: self.view.frame.width, height: self.view.frame.height)
+        self.view.addSubview(tableView)
+    }
 
 }
 
