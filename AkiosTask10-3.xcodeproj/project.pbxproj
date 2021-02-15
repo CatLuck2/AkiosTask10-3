@@ -17,6 +17,7 @@
 		6137A1F125DA4C6F00E55A46 /* AkiosTask10_3Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6137A1F025DA4C6F00E55A46 /* AkiosTask10_3Tests.swift */; };
 		6137A1FC25DA4C6F00E55A46 /* AkiosTask10_3UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6137A1FB25DA4C6F00E55A46 /* AkiosTask10_3UITests.swift */; };
 		6137A23425DA87C800E55A46 /* R.generated.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6137A23325DA87C800E55A46 /* R.generated.swift */; };
+		6137A24D25DA922900E55A46 /* Prefectures.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6137A24C25DA922900E55A46 /* Prefectures.swift */; };
 		9344F22ECCBAB58EC7981745 /* Pods_AkiosTask10_3Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BFF2A08EDDEEBF0E1A0D039E /* Pods_AkiosTask10_3Tests.framework */; };
 		93BC15A2DF18551370A514C5 /* Pods_AkiosTask10_3.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 24D0017E97618B35A5E83D03 /* Pods_AkiosTask10_3.framework */; };
 /* End PBXBuildFile section */
@@ -57,6 +58,7 @@
 		6137A1FB25DA4C6F00E55A46 /* AkiosTask10_3UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AkiosTask10_3UITests.swift; sourceTree = "<group>"; };
 		6137A1FD25DA4C6F00E55A46 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6137A23325DA87C800E55A46 /* R.generated.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = R.generated.swift; sourceTree = "<group>"; };
+		6137A24C25DA922900E55A46 /* Prefectures.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Prefectures.swift; sourceTree = "<group>"; };
 		80BF8C31146A050DB0A92392 /* Pods-AkiosTask10-3Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AkiosTask10-3Tests.release.xcconfig"; path = "Target Support Files/Pods-AkiosTask10-3Tests/Pods-AkiosTask10-3Tests.release.xcconfig"; sourceTree = "<group>"; };
 		8CF9C4988647A50FC9CF168C /* Pods-AkiosTask10-3.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AkiosTask10-3.debug.xcconfig"; path = "Target Support Files/Pods-AkiosTask10-3/Pods-AkiosTask10-3.debug.xcconfig"; sourceTree = "<group>"; };
 		98572A7AE52EDFCDE9399112 /* Pods-AkiosTask10-3-AkiosTask10-3UITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AkiosTask10-3-AkiosTask10-3UITests.release.xcconfig"; path = "Target Support Files/Pods-AkiosTask10-3-AkiosTask10-3UITests/Pods-AkiosTask10-3-AkiosTask10-3UITests.release.xcconfig"; sourceTree = "<group>"; };
@@ -134,6 +136,7 @@
 				6137A23325DA87C800E55A46 /* R.generated.swift */,
 				6137A1D925DA4C6D00E55A46 /* AppDelegate.swift */,
 				6137A1DB25DA4C6D00E55A46 /* SceneDelegate.swift */,
+				6137A24C25DA922900E55A46 /* Prefectures.swift */,
 				6137A1DD25DA4C6D00E55A46 /* ViewController.swift */,
 				6137A1DF25DA4C6D00E55A46 /* Main.storyboard */,
 				6137A1E225DA4C6F00E55A46 /* Assets.xcassets */,
@@ -429,6 +432,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6137A24D25DA922900E55A46 /* Prefectures.swift in Sources */,
 				6137A1DE25DA4C6D00E55A46 /* ViewController.swift in Sources */,
 				6137A1DA25DA4C6D00E55A46 /* AppDelegate.swift in Sources */,
 				6137A1DC25DA4C6D00E55A46 /* SceneDelegate.swift in Sources */,
