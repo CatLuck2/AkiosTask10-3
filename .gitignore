@@ -12,7 +12,7 @@ DerivedData/
 !default.perspectivev3
 
 .DS_Store
-
+Pods/*
 *.xcodeproj/*
 !*.xcodeproj/project.pbxproj
 !*.xcodeproj/xcshareddata/
