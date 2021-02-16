@@ -7,6 +7,27 @@
 
 import UIKit
 
+enum PrefectureColor {
+
+    case red
+    case green
+    case blue
+    case other
+
+    var rawValueColor: UIColor {
+        switch self {
+        case .red:
+            return .red
+        case .green:
+            return .green
+        case .blue:
+            return .blue
+        case .other:
+            return .clear
+        }
+    }
+}
+
 class ViewController: UIViewController {
 
     private let tableView = UITableView()
