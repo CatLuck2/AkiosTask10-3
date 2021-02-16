@@ -9,21 +9,15 @@ import UIKit
 
 enum PrefectureColor {
 
-    case red
-    case green
-    case blue
+    case red, green, blue
     case other
 
     var rawValueColor: UIColor {
         switch self {
-        case .red:
-            return .red
-        case .green:
-            return .green
-        case .blue:
-            return .blue
-        case .other:
-            return .clear
+        case .red: return .red
+        case .green: return .green
+        case .blue: return .blue
+        case .other: return .clear
         }
     }
 }
