@@ -32,6 +32,7 @@ class ViewController: UIViewController {
 
     private let tableView = UITableView()
     private let prefectures = Prefectures()
+    private var prefectureColor = PrefectureColor.other
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -48,6 +49,19 @@ class ViewController: UIViewController {
         self.view.addSubview(tableView)
     }
 
+    private func getPrefectureColor(indexPathRow: Int) -> UIColor {
+        switch indexPathRow % 3 {
+        case 0:
+            prefectureColor = .red
+        case 1:
+            prefectureColor = .green
+        case 2:
+            prefectureColor = .blue
+        default:
+            prefectureColor = .other
+        }
+        return prefectureColor.rawValueColor
+    }
 }
 
 extension ViewController: UITableViewDelegate, UITableViewDataSource {
@@ -59,6 +73,7 @@ extension ViewController: UITableViewDelegate, UITableViewDataSource {
         let cell = UITableViewCell(style: .value1, reuseIdentifier: "cell")
         cell.textLabel?.text = prefectures.names[indexPath.row]
         cell.detailTextLabel?.text = "\(indexPath.row + 1)番目の都道府県です"
+        cell.backgroundColor = getPrefectureColor(indexPathRow: indexPath.row)
         return cell
     }
 }
