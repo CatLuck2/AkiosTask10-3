@@ -9,14 +9,8 @@ import UIKit
 
 class PrefectureTableViewDelegate: NSObject, UITableViewDelegate, UITableViewDataSource {
     
-    private var prefectureNames: [String] = []
-    private var prefectureColor: PrefectureColor = PrefectureColor.other
+    private var prefectureNames: [String] = Prefecture.names
     private let reuseIdentifier: String = "cell"
-
-    override init() {
-        super.init()
-        self.prefectureNames = Prefectures().names
-    }
 
     private func getPrefectureDetailText(indexPathRow: Int) -> String {
         "\(indexPathRow + 1)番目の都道府県です"
@@ -33,36 +27,17 @@ class PrefectureTableViewDelegate: NSObject, UITableViewDelegate, UITableViewDat
         cell.backgroundColor = getPrefectureColor(indexPathRow: indexPath.row)
         return cell
     }
-}
-
-extension PrefectureTableViewDelegate {
-    enum PrefectureColor {
-
-        case red, green, blue
-        case other
-
-        var rawValueColor: UIColor {
-            switch self {
-            case .red: return .red
-            case .green: return .green
-            case .blue: return .systemBlue
-            case .other: return .clear
-            }
-        }
-    }
 
     private func getPrefectureColor(indexPathRow: Int) -> UIColor {
         switch indexPathRow % 3 {
         case 0:
-            prefectureColor = .red
+            return .red
         case 1:
-            prefectureColor = .green
+            return .green
         case 2:
-            prefectureColor = .blue
+            return .blue
         default:
-            prefectureColor = .other
+            fatalError("起こり得ない")
         }
-        return prefectureColor.rawValueColor
     }
 }
-

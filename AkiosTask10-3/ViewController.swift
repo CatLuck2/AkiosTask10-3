@@ -9,7 +9,7 @@ import UIKit
 
 class ViewController: UIViewController {
 
-    private let tableView = PrefectureTableView()
+    private let tableView = UITableView()
     private let tableViewDelegate = PrefectureTableViewDelegate()
 
     override func viewDidLoad() {
@@ -17,9 +17,18 @@ class ViewController: UIViewController {
     }
 
     private func setUpTableView() {
-        tableView.setUp(tableViewFrame: CGRect(x: 0, y: 0, width: self.view.frame.width, height: self.view.frame.height))
+        view.addSubview(tableView)
+
+        tableView.translatesAutoresizingMaskIntoConstraints = false
+
+        NSLayoutConstraint.activate([
+            tableView.leadingAnchor.constraint(equalTo: view.leadingAnchor),
+            tableView.trailingAnchor.constraint(equalTo: view.trailingAnchor),
+            tableView.topAnchor.constraint(equalTo: view.topAnchor),
+            tableView.bottomAnchor.constraint(equalTo: view.bottomAnchor),
+        ])
+
         tableView.delegate = tableViewDelegate
         tableView.dataSource = tableViewDelegate
-        self.view.addSubview(tableView)
     }
 }

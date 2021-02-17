@@ -14,7 +14,6 @@
 		6137A1E325DA4C6F00E55A46 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6137A1E225DA4C6F00E55A46 /* Assets.xcassets */; };
 		6137A1E625DA4C6F00E55A46 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6137A1E425DA4C6F00E55A46 /* LaunchScreen.storyboard */; };
 		6137A24D25DA922900E55A46 /* Prefectures.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6137A24C25DA922900E55A46 /* Prefectures.swift */; };
-		6137A25825DC8A0A00E55A46 /* PrefectureTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6137A25725DC8A0A00E55A46 /* PrefectureTableView.swift */; };
 		6137A26025DC93A400E55A46 /* PrefectureTableViewDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6137A25F25DC93A400E55A46 /* PrefectureTableViewDelegate.swift */; };
 /* End PBXBuildFile section */
 
@@ -47,7 +46,6 @@
 		6137A1EC25DA4C6F00E55A46 /* AkiosTask10-3Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "AkiosTask10-3Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6137A1F725DA4C6F00E55A46 /* AkiosTask10-3UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "AkiosTask10-3UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6137A24C25DA922900E55A46 /* Prefectures.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Prefectures.swift; sourceTree = "<group>"; };
-		6137A25725DC8A0A00E55A46 /* PrefectureTableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrefectureTableView.swift; sourceTree = "<group>"; };
 		6137A25F25DC93A400E55A46 /* PrefectureTableViewDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrefectureTableViewDelegate.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -113,7 +111,6 @@
 		6137A26425DC997D00E55A46 /* TableView */ = {
 			isa = PBXGroup;
 			children = (
-				6137A25725DC8A0A00E55A46 /* PrefectureTableView.swift */,
 				6137A25F25DC93A400E55A46 /* PrefectureTableViewDelegate.swift */,
 			);
 			path = TableView;
@@ -321,7 +318,6 @@
 				6137A1DE25DA4C6D00E55A46 /* ViewController.swift in Sources */,
 				6137A1DA25DA4C6D00E55A46 /* AppDelegate.swift in Sources */,
 				6137A1DC25DA4C6D00E55A46 /* SceneDelegate.swift in Sources */,
-				6137A25825DC8A0A00E55A46 /* PrefectureTableView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
