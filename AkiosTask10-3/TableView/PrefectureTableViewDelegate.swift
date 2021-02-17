@@ -22,6 +22,10 @@ class PrefectureTableViewDelegate: NSObject, UITableViewDelegate, UITableViewDat
         self.prefectureNames = Prefectures().names
     }
 
+    private func outputPrefectureDetailText(indexPathRow: Int) -> String {
+        "\(indexPathRow + 1)番目の都道府県です"
+    }
+
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         prefectureNames.count
     }
@@ -29,7 +33,7 @@ class PrefectureTableViewDelegate: NSObject, UITableViewDelegate, UITableViewDat
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = UITableViewCell(style: .value1, reuseIdentifier: reuseIdentifier)
         cell.textLabel?.text = prefectureNames[indexPath.row]
-        cell.detailTextLabel?.text = "\(indexPath.row + 1)番目の都道府県です"
+        cell.detailTextLabel?.text = outputPrefectureDetailText(indexPathRow: indexPath.row)
         cell.backgroundColor = getPrefectureColor(indexPathRow: indexPath.row)
         return cell
     }
