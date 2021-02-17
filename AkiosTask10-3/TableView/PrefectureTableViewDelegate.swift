@@ -10,7 +10,8 @@ import UIKit
 class PrefectureTableViewDelegate: NSObject, UITableViewDelegate, UITableViewDataSource {
     
     private var prefectureNames: [String] = []
-    private var prefectureColor = PrefectureColor.other
+    private var prefectureColor: PrefectureColor = PrefectureColor.other
+    private let reuseIdentifier: String = "cell"
 
     override init() {
         super.init()
@@ -26,7 +27,7 @@ class PrefectureTableViewDelegate: NSObject, UITableViewDelegate, UITableViewDat
     }
 
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        let cell = UITableViewCell(style: .value1, reuseIdentifier: "cell")
+        let cell = UITableViewCell(style: .value1, reuseIdentifier: reuseIdentifier)
         cell.textLabel?.text = prefectureNames[indexPath.row]
         cell.detailTextLabel?.text = "\(indexPath.row + 1)番目の都道府県です"
         cell.backgroundColor = getPrefectureColor(indexPathRow: indexPath.row)
