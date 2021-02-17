@@ -15,14 +15,10 @@ class PrefectureTableViewDelegate: NSObject, UITableViewDelegate, UITableViewDat
 
     override init() {
         super.init()
-        initialize()
-    }
-
-    private func initialize() {
         self.prefectureNames = Prefectures().names
     }
 
-    private func outputPrefectureDetailText(indexPathRow: Int) -> String {
+    private func getPrefectureDetailText(indexPathRow: Int) -> String {
         "\(indexPathRow + 1)番目の都道府県です"
     }
 
@@ -33,7 +29,7 @@ class PrefectureTableViewDelegate: NSObject, UITableViewDelegate, UITableViewDat
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = UITableViewCell(style: .value1, reuseIdentifier: reuseIdentifier)
         cell.textLabel?.text = prefectureNames[indexPath.row]
-        cell.detailTextLabel?.text = outputPrefectureDetailText(indexPathRow: indexPath.row)
+        cell.detailTextLabel?.text = getPrefectureDetailText(indexPathRow: indexPath.row)
         cell.backgroundColor = getPrefectureColor(indexPathRow: indexPath.row)
         return cell
     }
